@@ -1,0 +1,152 @@
+
+/* CSS Document */
+body {
+	background-color: #0A0050;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0;
+}
+
+#header{
+	display: block;
+	height: 4em;
+	background-color: #ECEFFB;
+	position: relative;
+}
+
+#header #logo{
+	width: 6.35em;
+	height: 3.5em;
+	padding: 0.25em 1em;
+	padding-top: 0.5em;
+	float: left;
+	position: relative;
+}
+#header #menu{
+	width: 6em;
+	float: right;
+	margin-right: 4em;
+	position: relative;
+	list-style-type: none;
+}
+#header #menu a{
+	position: relative;
+	display: block;
+	background-color: #7C8CDD;
+	color:#eee;
+	padding: 0.5em 0em;
+	border: #eee solid thin;
+	text-decoration: none;
+	text-align: center;
+}
+#header #menu li a:hover{
+	background-color: #eee;
+	color:#7C8CDD;
+}
+#header #menu li:hover #sub-menu{
+	display: block;
+}
+
+#header #sub-menu{
+	position: absolute;
+	z-index: 11;
+	list-style-type: none;
+	
+	display: none;
+}
+#header #sub-menu li{
+	width: 6em;
+	position:relative;
+	text-align: center;
+}
+#header #sub-menu li a{
+	position: relative;
+	display: block;
+	background-color: #7C8CDD;
+	color:#eee;
+	padding: 0.5em 0em;
+	border: #eee solid thin;
+	text-decoration: none;
+}
+
+#header #menu li a:hover{
+	background-color:#ECEFFB ;
+	color:#7C8CDD;
+}
+#header #menu li .sub {
+	list-style-type: none;
+	padding: 0;
+	position:relative;
+	display: none;
+}
+#header #menu #sub-menu li:hover .sub {
+	display: block;
+}
+
+#footer{
+	background-color: #ECEFFB;
+	height: 2.65em;
+	position: relative;
+	text-align: left;
+	color:#0020C4;
+	font-weight: 400;
+	margin:  0em 2em ;
+}
+#footer .icons{
+	width: 1.2em;
+	height: 1.2em;
+	float: right;
+	margin:0.5em 2em 0em;
+	
+}
+@media only screen and (max-width: 1200px){
+	body{
+		font-size: 17px;
+	}
+	#header #menu {
+		width: 10%;
+		float:right;
+		position: absolute;
+		z-index: 3;
+		margin-left: 80%;
+	}
+}
+
+@media only screen and (max-width:600px){
+	body {
+		font-size: 14px;
+	}
+	#header {
+		background-color: #ECEFFD;
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+		height: auto;
+
+	}
+	#header #logo {
+		width: 30%;
+		float: left;
+	}
+	#header #menu {
+		width: 30%;
+		
+		float:right;
+		position: absolute;
+		z-index: 3;
+		margin-left: 60%;
+	}
+	#header #menu li {
+		width: 100%;
+	}
+	#header #menu li .sub {
+		position:relative;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	#footer{
+		text-align: left;
+		margin: 0 5%;
+	}
+}

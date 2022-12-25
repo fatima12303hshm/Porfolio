@@ -1,0 +1,108 @@
+body{
+	font-size: 20px;
+	margin:0;
+}
+#content{
+	width: 50em;
+	height: auto;
+	overflow: auto;
+}
+#left {
+	width:20em;
+	height: 9em;
+	margin:2em 6em;
+}
+#left .des{
+	
+	width:17em;
+	height: 9em;
+	position:relative;
+	background-color: #7C8CDD;
+	margin: 0.5em 0.5em;
+	text-align:center;
+	border: 5px solid #CCDFFF;
+	box-sizing: border-box;
+	color:#18243F;
+}
+ #left .des a{
+	text-decoration: none;
+	color:#18243F;
+}
+
+
+#right  {
+	width :25em;
+	position: relative;
+	height: 18em;
+	float: right;
+}
+#name, #email, #txt, #subject{
+	width:25em;
+	margin: 1em;
+	float: left;
+	background-color: #FFFFFF;
+	border:2px solid #7C8CDD;
+	border-bottom: 1px solid #1C2941;
+	color:#150076;
+	position: relative;
+		
+}
+button{
+	
+	width:10em;
+	margin: 1em;
+	background-color: #FFF;
+	color:#000;
+	position: relative;
+		
+}
+@media only screen and (max-width: 1600px){
+	body{
+		font-size: 19px;
+	}
+}
+@media only screen and (max-width:1400px){
+	body{
+		font-size: 16.7px;
+	}
+}
+@media only screen and (max-width:1200px){
+	body{
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	body{
+		font-size: 16px;
+	}
+	
+}
+@media only screen and (max-width: 600px ){
+	body{
+		font-size: 13px;
+	}
+	
+	#content {
+		padding-top: 7em;
+		width:100%;
+		height: auto;
+		position: relative;
+		
+	} 
+	#content #left{
+		width: 60%;
+		margin: 2em 20%;
+		height: auto;
+		
+		
+	}
+	#content #right{
+		float:left;
+		width:80%;
+		margin:0em 1
+			0%;
+		height: auto;
+	}
+		
+	}

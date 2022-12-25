@@ -1,0 +1,136 @@
+/* CSS Document */
+
+body {
+	background-color: #005;
+	font-family:system-ui;
+	font-size: 20px;
+	margin: 0;
+}
+.home{
+	height:auto;
+	overflow: auto;
+}
+.home #left  {
+	position: relative;
+	float: left;
+	padding-top: 5em;
+	width: 18em;
+	height: 20em;
+}
+
+
+.home #left #image {
+	float: left;
+	width: 15em;
+	height: 20em;
+	border-top: 1.5em solid #0064F0;
+    border-right: 1.5em solid #0064F0;
+    border-bottom: 1.5em solid #545EB5;
+    border-left: 1.5em solid  #545EB5;
+}
+
+.home #right{
+	float:left;
+	padding: 3em;
+	padding-top: 8em;
+	width: 24em;
+	height: 20em;
+}
+.home #right h3{
+    color:#FFF;
+	font-size:2em;
+    margin-top: 1em;
+}
+
+
+.home #right h3 span{
+    color:#0049F8;
+}
+
+.type {
+	display:inline-block;
+	
+	vertical-align: bottom;
+}
+h4{
+	font-size: 29px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:#FFF;
+}
+
+.type  span {
+	color: #0da6cc;
+	display:grid;
+	overflow: hidden;
+	height:1.2em;
+} 
+.type span span {
+	width:0%;
+	max-width:max-content;
+	overflow: hidden;
+	height:inherit;
+	word-break:break-all;
+	animation:
+		c 0.5s infinite steps(1),
+		t 2s linear infinite alternate,
+		m 16s steps(4) infinite;
+}
+.type span span:before {
+	content:" ";
+	display:inline-block;
+}
+
+@keyframes t{
+	90%,100% {width:100%}
+}
+
+@keyframes c{
+	0%,100%{box-shadow:5px 0 0 #0000}
+	50%    {box-shadow:5px 0 0 white}
+}
+
+@keyframes m{
+	100% {transform:translateY(-400%)}
+}
+
+@media only screen and (max-width:1300px){
+	body{
+		font-size: 17.5px;
+	}
+}
+@media only screen and (max-width:1000px){
+	body {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width:600px){
+	body {
+		font-size: 14px;
+	}
+
+	.home{
+		width: 100%;
+		
+		height: auto;
+		overflow: auto;
+	}
+	.home #left{
+		width: 90%;
+		height: auto;
+		
+	}
+	.home #left #image{
+		width:50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		height: 50%;
+	}
+
+	.home #right h3  {
+		width: 100%;
+		margin: 0em;
+	}
+}
+
+

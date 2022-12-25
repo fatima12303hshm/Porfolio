@@ -1,0 +1,218 @@
+body{
+	font-size: 20px;
+	margin:0;
+}
+#content{
+	width: 60em;
+	height: 30.75em;
+	overflow: auto;
+}
+
+#content #left{
+	width: 20em;
+	height: 20em;
+	position: absolute;
+	float: left;
+}
+
+#content #left h1{
+	
+	color:#7C8CDD;
+	padding-left: 2em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#content #left .img{
+	width: 15em;
+	height: 9em;
+	rotate: -15deg;
+	margin: 0.5em 10em;
+}
+#content #right {
+	width: 26em;
+	height: auto;
+	float: right;
+	position: relative;
+	margin: 3em 0em 0em 10em;
+}
+#content #right #progresshtml h4{
+	font: italic;
+	font-weight: 200;
+	color:#6C89B5;
+}
+#content #right #progresshtml span{
+	margin-top: 1em;
+	float:right;
+	color:#6C89B5;
+}
+#content  #right #progresshtml .bar  {
+	width: 100%;
+	border-bottom: 1em solid #eee;
+	position: absolute;
+	border-radius: 1em;
+	z-index: 2;
+	display: block;
+}
+#content  #right #progresshtml .bar #html {
+	width:90%;
+	border-bottom: 1em solid #7C8CDD;
+	 border-radius:1em; 
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+
+
+#content #right #progresscss h4{
+	font: italic;
+	font-weight: 200;
+	color:#6C89B5;
+	padding: 0em;
+}
+#content #right #progresscss span{
+	margin-top: 1em;
+	float:right;
+	color:#6C89B5;
+}
+#content  #right #progresscss .bar  {
+	width: 100%;
+	border-bottom: 1em solid #eee;
+	position: absolute;
+	border-radius: 1em;
+	z-index: 2;
+	display: block;
+}
+#content  #right #progresscss .bar #css {
+	width:90%;
+	border-bottom: 1em solid #7C8CDD;
+	 border-radius:1em; 
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+
+
+#content #right #progressjs h4{
+	font: italic;
+	font-weight: 200;
+	color:#6C89B5;
+}
+#content #right #progressjs span{
+	margin-top: 1em;
+	float:right;
+	color:#6C89B5;
+}
+#content  #right #progressjs .bar  {
+	width: 100%;
+	border-bottom: 1em solid #eee;
+	position: absolute;
+	border-radius: 1em;
+	z-index: 2;
+	display: block;
+}
+#content  #right #progressjs .bar #js {
+	width:100%;
+	border-bottom: 1em solid #7C8CDD;
+	 border-radius:1em; 
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+
+#content #right #progressml h4{
+	font: italic;
+	font-weight: 200;
+	color:#6C89B5;
+}
+#content #right #progressml span{
+	margin-top: 1em;
+	float:right;
+	color:#6C89B5;
+}
+#content  #right #progressml .bar  {
+	width: 100%;
+	border-bottom: 1em solid #eee;
+	position: absolute;
+	border-radius: 1em;
+	z-index: 2;
+	display: block;
+}
+#content  #right #progressml .bar #ml {
+	width:80%;
+	border-bottom: 1em solid #7C8CDD;
+	 border-radius:1em; 
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+
+#content #right #progresspython h4{
+	font: italic;
+	font-weight: 200;
+	color:#6C89B5;
+}
+#content #right #progresspython span{
+	margin-top: 1em;
+	float:right;
+	color:#6C89B5;
+}
+#content  #right #progresspython .bar  {
+	width: 100%;
+	border-bottom: 1em solid #eee;
+	position: absolute;
+	border-radius: 1em;
+	z-index: 2;
+	display: block;
+}
+#content  #right #progresspython .bar #python {
+	width:100%;
+	border-bottom: 1em solid #7C8CDD;
+	 border-radius:1em; 
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+@media only screen and (max-width: 1200px){
+	body{
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 600px){
+	body{
+		font-size: 14px;
+		
+	}
+	#content{
+		width:100%;
+		position: relative;
+		height: auto;
+	}
+	#content #left{
+		padding-top: 7em;
+		float: none;
+		width:90%;
+		height: auto;
+		position: relative;
+		
+	
+	}
+	#content #left .img{
+		width:60%;
+		height: 60%;
+		margin :3em  20%;
+		
+	}
+	
+	#content #right{
+		width:60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		height: auto;
+		float: none;
+		position: relative;
+		
+	}
+	
+
+}
+
+

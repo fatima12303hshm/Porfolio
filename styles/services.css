@@ -1,0 +1,73 @@
+/* CSS Document */
+#content {
+	width:72em;
+	height: 30.7em;
+	overflow-y: auto;
+	
+}
+#content{
+	width:60em;
+	height: 30em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	
+}
+#content .service {
+	position: relative;
+	float: left;
+	align-items:center;
+	width:17em;
+	height: 16em;
+	margin: 3em 1em;
+	
+}
+#content .service img,iframe{
+	width:16.2em;
+	height: 15em;
+	float: right;
+}
+h4{
+	color:#0C23D0;
+	font-weight: 300;
+	font-size: 1.2em;
+	background-color: #96B0FF;
+	display: inline-block;
+	padding: 0.5em;
+}
+@media only screen and (max-width: 1200px){
+	body{
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 600px ){
+	body{
+		font-size: 14px;
+	}
+	
+	#content {
+		width:70%;
+		margin:0 15%;
+		height: auto;
+		
+		overflow:hidden;
+	} 
+	#content .service #img1 {
+		width:100%;
+		height: 100%;
+		margin: 4em 0 0 0;
+		overflow: hidden;
+		
+	}
+	#content .service  {
+		width:80%;
+	 	height: 80%;
+		margin: 0.5em 0;
+	}
+	#content .service img, iframe{
+		width:100%; 
+		height: 100%;
+	}
+	
+		
+	}
